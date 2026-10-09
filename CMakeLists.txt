@@ -38,7 +38,8 @@ add_executable(firmware.elf ${SOURCES})
 
 # Заголовки
 target_include_directories(firmware.elf PRIVATE
-    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/include/cmsis
+    ${CMAKE_SOURCE_DIR}/include/stm32
 )
 
 # Скрипт линкера и опции линковки

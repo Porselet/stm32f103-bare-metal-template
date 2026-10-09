@@ -3,7 +3,8 @@
         {
             "name": "STM32",
             "includePath": [
-                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/include/cmsis",
+                "${workspaceFolder}/include/stm32",
                 "${workspaceFolder}/src/**"
             ],
             "defines": [
